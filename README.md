@@ -1,6 +1,9 @@
 # DevOps Directive Terraform Course
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 ## 01 - Evolution of Cloud + Infrastructure as Code
 
 High level overview of the evolution of cloud computing and infrastructure as code.
