@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "devops-directive-tf-state"
     key            = "04-variables-and-outputs/examples/terraform.tfstate"
-    region         = "us-east-1"
+    region         = "ap-south-1"
     dynamodb_table = "terraform-state-locking"
     encrypt        = true
   }
@@ -44,4 +44,3 @@ resource "aws_db_instance" "db_instance" {
   password            = var.db_pass
   skip_final_snapshot = true
 }
-
